@@ -1,0 +1,261 @@
+/*-------------------------*/
+/* Simple Idle JS Game CSS */
+/*-------------------------*/
+#body {
+	background-image: url("assets/bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0px 90px;
+	background-color: #000000;
+	color: rgba(255,255,255,1);
+	text-align: center;
+}
+
+/*--------*/
+/* Header */
+/*--------*/
+#header {
+	background-image: linear-gradient(-60deg, white, rgba(180, 80, 170, 1));
+	padding: 0px;
+}
+
+	#headericon {
+		text-align: left;
+		border-radius: 30px;
+	}
+
+	#headertext {
+		text-align: right;
+		font-size: 45;
+		font-family: monospace;
+		margin-top: 4px;
+		text-shadow: -1px 0px 2px #222222, 
+					 0px 1px 2px #222222, 
+					 1px 0px 2px #222222, 
+					 0px -1px 2px #222222;
+	}
+
+/*--------*/
+/* Navbar */
+/*--------*/
+#navbar {
+	height: 35px;
+	background-image: linear-gradient(#eeeeee, white, #cccccc);
+}
+	#clockcontainer {
+		margin-top:4px;
+		text-align: right;
+		color: black;
+	}
+
+/*-------------*/
+/* Main window */
+/*-------------*/
+#maincol {
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+
+	#divbotones {
+		margin-right: 15px;
+		margin-left: 15px;
+		padding: 20px 60px 20px 60px;
+		background-color: rgba(0,0,0,0.1);
+		border-radius: 15px;
+	}
+
+/*------*/
+/* Name */
+/*------*/
+#namediv {
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 15px;
+	margin-left: 5px;
+	border-radius: 5px;
+	text-align: center;
+	text-shadow: -1px 0px 2px #222222, 
+	 		 0px 1px 2px #222222, 
+	 		 1px 0px 2px #222222, 
+	 		 0px -1px 2px #222222;
+}
+
+#ChangeNameModal {
+	color: #333333;
+}
+
+#ChangeNameModalcontent{
+	background-color: white;
+}
+
+#BoutiqueModal {
+	color: #333333;
+}
+
+#MusicThemeModal {
+	color: #333333;
+}
+
+/*--------*/
+/* Avatar */
+/*--------*/
+#avatardiv {
+	height: 155px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	padding-top: 3px;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 0px;
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+
+	#avatarimg {
+		margin-top: 0px;
+	}
+
+	#avatarselector {
+		transform: translate(0px, -5px);
+	}
+
+	#currentavatar {
+		box-shadow: -1px 0px 2px rgba(200, 100, 190, 1),
+					0px 1px 2px rgba(200, 100, 190, 1),
+					1px 0px 2px rgba(200, 100, 190, 1),
+					0px -1px 2px rgba(200, 100, 190, 1);
+	}
+
+/*-------*/
+/* Stats */
+/*-------*/
+#statsdiv {
+	height: 308px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 5px;
+	padding-top: 5px;
+	text-shadow: -1px 0px 2px #222222, 
+	 		 0px 1px 2px #222222, 
+	 		 1px 0px 2px #222222, 
+	 		 0px -1px 2px #222222;
+}
+	#statnames {
+		font-size: 13px;
+		text-align: left;
+		margin-top: 10px;
+	}
+
+	#statvalues {
+		font-size: 13px;
+		text-align: right;
+		margin-top: 10px;
+	}
+
+/*---------*/
+/* Console */
+/*---------*/
+#consolediv {
+	height: 158px;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.7);
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+
+	#console {
+		transform: translate(0px, -9px);
+		resize: none;
+	}
+
+/*------*/
+/* Shop */
+/*------*/
+#shopdiv {
+	height: 235px;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.7);
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+	#shopbuttons {
+		margin-top: 8px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+/*----------------*/
+/* Music & Themes */
+/*----------------*/
+#themesdiv {
+	height: 100px;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.7);
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+
+/*-----*/
+/* Ads */
+/*-----*/
+#adsdiv {
+	height: 152px;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.7);
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+
+#achievementsdiv {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#rubycounterdiv {
+	background-color: rgba(0,0,255,0.4);
+	color: white;
+	padding-top: 5px;
+	border-radius: 15px;
+	text-shadow: -1px 0px 2px #222222, 
+		 		 0px 1px 2px #222222, 
+		 		 1px 0px 2px #222222, 
+		 		 0px -1px 2px #222222;
+}
+
+#music_controls {
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 15px;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+}
